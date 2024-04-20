@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1_2 {
+  width: 100%;
+  height: 850px;
+  
+  color: #fff;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v101_8 {
+  width: 331px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 836px;
+  left: 345px;
+  font-family: Libre Barcode 128 Text;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v101_21 {
+  width: 492px;
+  color: rgb(255, 255, 255);
+  background: #1100ff; /* Серый цвет фона */
+  position: absolute;
+  top: 77px;
+  left: 83px;
+  font-family: Anonymous Pro;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.div1 {
+  margin: 200px;
+  padding: 10px 20px;
+  min-height: 50px;
+  display: grid 1;
+}
+
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+    width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video__media {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  height: 50px;
+  width: 500px;
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #1100ff; /* Серый цвет фона */
+  color: #ffffff; /* Белый цвет текста */
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  font-family: Anonymous Pro;
+  text-align: center;
+  font-size: 25px;
+ }
+
+ .btn:hover {   background: #0d00bd; /* Серый цвет фона */  transition: 0.5s}
+ .hits {
+  background: #1100ff; /* Серый цвет фона */
+  color: #ffffff; /* Белый цвет текста */
+  font-family: Anonymous Pro;
+  font-size: 32px;
+ }
+ы
+.v101_40 {
+  width: 439px;
+  height: 242px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 455px;
+  left: 0px;
+  overflow: hidden;
+}
+.v101_23 {
+  width: 439px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_42 {
+  width: 439px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 103px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_43 {
+  width: 439px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_44 {
+  width: 439px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 208px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_41 {
+  width: 439px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_24 {
+  width: 439px;
+  height: 439px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v101_31 {
+  width: 80px;
+  color: rgb(255, 255, 255);
+  background: #1100ff; /* Серый цвет фона */
+  position: absolute;
+  top: 21px;
+  left: 83px;
+  font-family: Cambo;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.video:after{
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}

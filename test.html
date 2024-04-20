@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="text.css" rel="stylesheet" type = "text/css">
+        <title>ALGORITHMS</title>
+    </head>
+    <body>
+        <!--<div class="video" >
+            <video src="9mice - RIOT MUZIK (Official Music Video).mp4" autoplay muted loop></video>
+        </div>-->
+        <div class="div1">
+            <div class="exit">
+                <a href="../index.html" class="exit1">Назад</a>
+            </div>
+            <h1zz>A*</h1>
+            <form name="publish">
+                <input type="number" name="n" step="1" placeholder="введите n" value="50" />
+                <input type="button" value="Построить/очистить карту" onclick="handleSubmit()" />
+            </form>
+            <script>
+                function handleSubmit() {
+                    n = document.forms.publish.n.value;
+                    //console.log(n);
+                    buildMap(n)
+                }
+            </script>
+            <div class="div1"><canvas id="canvas" width="800" height="800"></canvas>
+            </div>
+            <script src="main4.js" type="text/javascript">
+            </script>
+        </div>
+
+    </body>
+</html>

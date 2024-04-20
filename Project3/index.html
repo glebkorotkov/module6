@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Genetic algorithm</title>
+    <link rel="stylesheet" href="../css.css">
+</head>
+
+<body>
+    <div class="video" >
+        <video src="Playboi Carti - Ur The Moon (Kai Angel, 9mice remix) _ VIPERR 2023.mp4" autoplay muted loop></video>
+    </div>
+    <div class="div1">
+        <span class="hits"><h1>Genetic algorithm</h1></span>
+        <label for="Mutation Rate"><span class="hits">Mutation Rate</span></label>
+        <input type="number" step="any" id="mutationRate" value="0.2">
+        <label for="populationSize"><span class="hits">Population Size</span></label>
+        <input type="number" id="populationSize" value="200">
+        <label for="maxGenerations"><span class="hits">Max Generations</span></label>
+        <input type="number" id="maxGenerations" value="500">
+        <span class="hits"><button onclick="startButton()">Start</button></span>
+        <span class="hits"><button onclick="clearButton()">Clear</button></span>
+        <div class="exit">
+            <a href="../index.html" class="exit1">Назад</a>
+        </div>
+    </div>
+    <div class="div1">
+        <canvas id="myCanvas" width="500" height="385"></canvas>
+    </div>
+    <script src="tsp.js"></script>
+</body>
+
+</html>
